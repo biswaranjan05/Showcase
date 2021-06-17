@@ -1,0 +1,33 @@
+<ion-content>
+  <ion-card>
+    <ion-list style="margin-left: 10px;margin-right: 10px;">
+      <ion-text> Language</ion-text>
+      <ion-item style="border: 1px solid rgb(182, 180, 180);margin-top: 6px;">
+        <ion-label> Select Language</ion-label>
+        <ion-select [compareWith]="compareWith">
+          <ion-select-option *ngFor="let lan of language">{{ lan.lang }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <ion-list style="margin-left: 10px;margin-right: 10px;">
+      <ion-text> Currency</ion-text>
+      <ion-item style="border: 1px solid rgb(139, 139, 139);margin-top: 6px;">
+        <ion-label>Select Currency</ion-label>
+        <ion-select [compareWith]="compareWith">
+          <ion-select-option *ngFor="let user of users">{{ user.first }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list style="margin-left: 10px;margin-right: 10px;">
+      <ion-text> Timezone</ion-text>
+      <ion-item style="border: 1px  solid rgb(139, 139, 139);margin-top: 6px;">
+        <ion-label> Select Timezone</ion-label>
+        <ion-select [compareWith]="compareWith">
+          <ion-select-option *ngFor="let tim of times">{{ tim.time }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <ion-button style="margin-left: 8px;"> Save</ion-button>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,2811 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cacheExpiryTime": 320,
+    "pages": 1,
+    "pageIndex": 0,
+    "scrubber": 0,
+    "filters": [
+      {
+        "type": "FilterWidget",
+        "title": "Cuisines",
+        "key": "CUISINES",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          {
+            "option": " Keventers & more",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "American",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Asian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Bakery",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Bengali",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Beverages",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Biryani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Bowl Company",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Cafe",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Chinese",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Combo",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Continental",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Desserts",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Fast Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Grill",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Healthy Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Hyderabadi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Ice Cream",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Italian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Juices",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Kebabs",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Lebanese",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Malwani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Mexican",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Mughlai",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "North Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Oriental",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Oriya",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Paan",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pan-Asian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pastas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pizzas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Punjabi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Rajasthani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Salads",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Seafood",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Snacks",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "South Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Steakhouse",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Street Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Sweets",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Tandoor",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Thai",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Thalis",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Tibetan",
+            "selected": 0,
+            "visible": 1
+          }
+        ],
+        "detail": "",
+        "heading": "Cuisines",
+        "applicable": 1,
+        "searchable": 1
+      },
+      {
+        "type": "FilterWidget",
+        "title": "Show Restaurants With",
+        "key": "SHOW_RESTAURANTS_WITH",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          {
+            "option": "Offers",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pure Veg",
+            "selected": 0,
+            "visible": 1
+          }
+        ],
+        "detail": "",
+        "heading": "Offers & More",
+        "applicable": 1,
+        "searchable": 0
+      }
+    ],
+    "sorts": [
+      {
+        "type": "SortWidget",
+        "key": "RELEVANCE",
+        "title": "Relevance",
+        "selected": 1,
+        "visible": 1,
+        "defaultSelection": true
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO",
+        "title": "Cost For Two",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "DELIVERY_TIME",
+        "title": "Delivery Time",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "RATING",
+        "title": "Rating",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      }
+    ],
+    "configs": {
+      "ribbons": {
+        "PREORDER": {
+          "type": "PREORDER",
+          "text": "Preorder",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 3
+        },
+        "EXCLUSIVE": {
+          "type": "EXCLUSIVE",
+          "text": "Exclusive",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 2
+        },
+        "NEW": {
+          "type": "NEW",
+          "text": "Newly Added",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 4
+        },
+        "REPEAT": {
+          "type": "REPEAT",
+          "text": "Repeat",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#D53D4C",
+          "bottomBackgroundColor": "#B02331",
+          "priority": 6
+        },
+        "CLOUD": {
+          "type": "CLOUD",
+          "text": "Daily Menus",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 5
+        },
+        "PREMIUM": {
+          "type": "PREMIUM",
+          "text": "Premium",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#8a584b",
+          "bottomBackgroundColor": "#583229",
+          "priority": 7
+        },
+        "PROMOTED": {
+          "type": "PROMOTED",
+          "text": "Promoted",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#3a3c41",
+          "bottomBackgroundColor": "#1e2023",
+          "priority": 1
+        }
+      },
+      "croutons": {
+        "SPECIAL": {
+          "type": "Crouton",
+          "bgColor": "#282C3F",
+          "icon": "surge_listing_piuzrv",
+          "textColor": "#ffffff",
+          "title": "High Demand",
+          "message": "Surge fee of Rs ${amount} may be applicable"
+        }
+      }
+    },
+    "cards": [
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "topCarousel",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 377382,
+                  "creativeId": "rng/md/carousel/production/clohpsolharhusmzwoae",
+                  "type": "restaurantCollectionV2",
+                  "link": "52908",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 116055,
+                  "creativeId": "rng/md/carousel/production/molf4ya4ynrvbeazfjfb.png",
+                  "type": "restaurant",
+                  "link": "156495",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=771525~p=0~eid=00000178-6e90-e02c-06b4-a2de00580022~aet=CAROUSEL~aeid=116055~bt=RESTAURANT~bid=156495"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 104515,
+                  "creativeId": "rng/md/carousel/production/bkzexoasv5tssadiwl2n.png",
+                  "type": "restaurant",
+                  "link": "112507",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=766641~p=1~eid=00000178-6e90-e02c-06b4-a2df0058012d~aet=CAROUSEL~aeid=104515~bt=RESTAURANT~bid=112507"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 116066,
+                  "creativeId": "rng/md/carousel/production/e8ehu1rrfbg2funfpmr7.png",
+                  "type": "restaurant",
+                  "link": "157928",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=771529~p=2~eid=00000178-6e90-e02c-06b4-a2e000580237~aet=CAROUSEL~aeid=116066~bt=RESTAURANT~bid=157928"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 103275,
+                  "creativeId": "rng/md/carousel/production/oaiwmqmdrwgr0zzlbetv.png",
+                  "type": "restaurant",
+                  "link": "98318",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=766171~p=3~eid=00000178-6e90-e02c-06b4-a2e100580341~aet=CAROUSEL~aeid=103275~bt=RESTAURANT~bid=98318"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 104432,
+                  "creativeId": "rng/md/carousel/production/es7p9r500af4s50mmgtg.png",
+                  "type": "restaurant",
+                  "link": "296283",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=766627~p=4~eid=00000178-6e90-e02c-06b4-a2e20058044b~aet=CAROUSEL~aeid=104432~bt=RESTAURANT~bid=296283"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 116042,
+                  "creativeId": "rng/md/carousel/production/zjmkryqkvxair7wmc367.png",
+                  "type": "restaurant",
+                  "link": "303354",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=771521~p=5~eid=00000178-6e90-e02c-06b4-a2e300580558~aet=CAROUSEL~aeid=116042~bt=RESTAURANT~bid=303354"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 103603,
+                  "creativeId": "rng/md/carousel/production/zeljqxvnpegctfdovkdo.png",
+                  "type": "restaurant",
+                  "link": "207196",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false,
+                  "adTrackingID": "cid=766315~p=6~eid=00000178-6e90-e02c-06b4-a2e40058067a~aet=CAROUSEL~aeid=103603~bt=RESTAURANT~bid=207196"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 334239,
+                  "creativeId": "rng/md/carousel/production/b1h0bhuomw3nqklkl8ui",
+                  "type": "restaurantCollectionV2",
+                  "link": "53262",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 306527,
+                  "creativeId": "rng/md/carousel/production/ztpd5q9awnmmnefczn5x",
+                  "type": "restaurantCollectionV2",
+                  "link": "47709",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 246210,
+                  "creativeId": "rng/md/carousel/production/ouuyembnga46m5570ntf",
+                  "type": "restaurantCollectionV2",
+                  "link": "34356",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 246205,
+                  "creativeId": "rng/md/carousel/production/opby9ba8yaqmrwj2z672",
+                  "type": "restaurantCollectionV2",
+                  "link": "34358",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 246214,
+                  "creativeId": "marketing-dashboard/carousel/v3wij0yymhoyanqsyd2a",
+                  "type": "restaurantCollectionV2",
+                  "link": "35126",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181650,
+                  "creativeId": "k7f6xdk98ywjcochkcwm",
+                  "type": "restaurantCollectionV2",
+                  "link": "11739",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 205960,
+                  "creativeId": "rs4krvosxjt6i5wyefvy",
+                  "type": "restaurantCollectionV2",
+                  "link": "11736",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "openFilter",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 305472,
+                  "creativeId": "azawtyrnrxqibiivimxe",
+                  "type": "restaurantCollectionV2",
+                  "link": "47978",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "What's New",
+                  "subtitle": "26 OPTIONS",
+                  "restaurants": [
+                    {
+                      "type": "F",
+                      "id": "349466",
+                      "name": "Maa Narayani Hotel",
+                      "uuid": "3e14158a-3c43-48f4-8f3a-b314ffdf03ad",
+                      "city": "57",
+                      "area": "Old BBSR",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "hgaafdzn1ntfh2nxynpu",
+                      "cuisines": ["Chinese"],
+                      "tags": [],
+                      "costForTwo": 30000,
+                      "costForTwoString": "₹300 FOR TWO",
+                      "deliveryTime": 41,
+                      "minDeliveryTime": 41,
+                      "maxDeliveryTime": 41,
+                      "slaString": "41 MINS",
+                      "lastMileTravel": 3.453000068664551,
+                      "slugs": {
+                        "restaurant": "maa-narayani-hotel-old-bbsr-old-bbsr",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "Mrs. Tunilata Mohanty At PLot No-587,Canel Road,Badagada,Bhubaneswar",
+                      "locality": "Old BBSR",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2200,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2200,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2200",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "3.4 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "349884",
+                      "name": "HOMIE",
+                      "uuid": "4cc766e5-efea-4201-9b03-a9267c5b74bb",
+                      "city": "57",
+                      "area": "Sahid Nagar",
+                      "totalRatingsString": "100+ ratings",
+                      "cloudinaryImageId": "i9kxf4jbhhauaacyfjze",
+                      "cuisines": ["Indian", "Tandoor", "Chinese", "Biryani", "Fast Food", "North Indian", "Grill"],
+                      "tags": [],
+                      "costForTwo": 25000,
+                      "costForTwoString": "₹250 FOR TWO",
+                      "deliveryTime": 56,
+                      "minDeliveryTime": 56,
+                      "maxDeliveryTime": 56,
+                      "slaString": "56 MINS",
+                      "lastMileTravel": 5.758999824523926,
+                      "slugs": {
+                        "restaurant": "homie-sahid-nagar-sahid-nagar",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "L-3/56,ACHARYA VIHAR, BHUBANESWAR  Orissa-751013",
+                      "locality": "Sahid Nagar",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                          {
+                            "meta": "50% off | Use TRYNEW",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ],
+                        "descriptionList": [
+                          {
+                            "meta": "50% off up to ₹100 | Use code TRYNEW",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ]
+                      },
+                      "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                          {
+                            "meta": "Use TRYNEW",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ],
+                        "descriptionList": [
+                          {
+                            "meta": "50% off up to ₹100 | Use code TRYNEW",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ]
+                      },
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 3200,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 3200,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "3200",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "5.7 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "4.1",
+                      "totalRatings": 100,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "349588",
+                      "name": "Go Rolls",
+                      "uuid": "d18cdf2f-49a2-4555-a864-625e924d6d01",
+                      "city": "57",
+                      "area": "Old BBSR",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "oo7yy0ujkbsszdwtr8fz",
+                      "cuisines": ["Indian"],
+                      "tags": [],
+                      "costForTwo": 25000,
+                      "costForTwoString": "₹250 FOR TWO",
+                      "deliveryTime": 37,
+                      "minDeliveryTime": 37,
+                      "maxDeliveryTime": 37,
+                      "slaString": "37 MINS",
+                      "lastMileTravel": 2.6549999713897705,
+                      "slugs": {
+                        "restaurant": "go-rolls-old-bbsr-old-bbsr",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "Ground floor, Falcon House, Puri - Cuttack Rd, Laxmisagar, Bhubaneswar, Odisha 751006",
+                      "locality": "Old BBSR",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2200,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2200,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2200",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "2.6 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "355603",
+                      "name": "Go Rolls",
+                      "uuid": "26d19fe4-a969-4586-bf64-e7f5aa5ec459",
+                      "city": "57",
+                      "area": "Old BBSR",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "wfc4ylkpsrfvu8a6d6bl",
+                      "cuisines": ["Indian", "Snacks"],
+                      "tags": [],
+                      "costForTwo": 25000,
+                      "costForTwoString": "₹250 FOR TWO",
+                      "deliveryTime": 41,
+                      "minDeliveryTime": 41,
+                      "maxDeliveryTime": 41,
+                      "slaString": "41 MINS",
+                      "lastMileTravel": 3.9140000343322754,
+                      "slugs": {
+                        "restaurant": "go-rolls-old-bbsr-old-bbsr-2",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "NEAR KALPANA SQUARE,OPPOSITE TO ODISHA STATE MUSEUM, BHUBANESWAR , Goutam Nagar , Ward 55, BHUBANESWAR MUNICIPAL CORPORATION, Orissa-751006",
+                      "locality": "Old BBSR",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2700,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2700,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2700",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "3.9 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "359754",
+                      "name": "BHAINA TIFFIN CENTRE",
+                      "uuid": "d316384f-ca3f-4566-b3ba-88f45396eb07",
+                      "city": "57",
+                      "area": "Sahid Nagar",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "w2fhmw0dugr9q590mp7i",
+                      "cuisines": ["Fast Food"],
+                      "tags": [],
+                      "costForTwo": 10000,
+                      "costForTwoString": "₹100 FOR TWO",
+                      "deliveryTime": 33,
+                      "minDeliveryTime": 33,
+                      "maxDeliveryTime": 33,
+                      "slaString": "33 MINS",
+                      "lastMileTravel": 1.2610000371932983,
+                      "slugs": {
+                        "restaurant": "bhaina-tiffin-centre-sahid-nagar-sahid-nagar-2",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "Text Book Press Colony, Unit - 3 , Khravel Nagar In Front Of OBCC, Irigation Colony, Ward 29, BHUBANESWAR MUNICIPAL CORPORATION, Orissa, 751001",
+                      "locality": "Sahid Nagar",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": true,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2500,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2500,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2500",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "1.2 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "344965",
+                      "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+                      "uuid": "4322b64e-e5a2-4de9-9b58-d98e019c7f91",
+                      "city": "57",
+                      "area": "Sahid Nagar",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "fnomc4dsybuaumourgk6",
+                      "cuisines": ["Ice Cream"],
+                      "tags": [],
+                      "costForTwo": 30000,
+                      "costForTwoString": "₹300 FOR TWO",
+                      "deliveryTime": 35,
+                      "minDeliveryTime": 35,
+                      "maxDeliveryTime": 35,
+                      "slaString": "35 MINS",
+                      "lastMileTravel": 2.878999948501587,
+                      "slugs": {
+                        "restaurant": "kwality-walls-frozen-dessert-and-ice-cream-shop-sahid-nagar-sahid-nagar-2",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "PLOT NO:553, SAHEED NAGAR, BHUBANESWAR, WARD 30, ORISSA-751007",
+                      "locality": "Sahid Nagar",
+                      "parentId": 582,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2200,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2200,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2200",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "2.8 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "361407",
+                      "name": "Bakeandfry",
+                      "uuid": "d0fe7385-afcb-4326-a7eb-9e683706b07e",
+                      "city": "57",
+                      "area": "Old BBSR",
+                      "totalRatingsString": "Too Few Ratings",
+                      "cloudinaryImageId": "opfnnvrefwwsxlkrkevw",
+                      "cuisines": ["Snacks"],
+                      "tags": [],
+                      "costForTwo": 20500,
+                      "costForTwoString": "₹205 FOR TWO",
+                      "deliveryTime": 32,
+                      "minDeliveryTime": 32,
+                      "maxDeliveryTime": 32,
+                      "slaString": "32 MINS",
+                      "lastMileTravel": 2.8410000801086426,
+                      "slugs": {
+                        "restaurant": "bakeandfry-old-bbsr-old-bbsr",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "Rajendra Vihar Apartment, Airport New Road, Forest Park, Bhubaneswar, Odisha, India",
+                      "locality": "Old BBSR",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 2200,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 2200,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "2200",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "2.8 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "--",
+                      "totalRatings": 0,
+                      "new": true
+                    },
+                    {
+                      "type": "F",
+                      "id": "349615",
+                      "name": "Indiana Burgers",
+                      "uuid": "3ea2e734-0979-4373-aa41-3567629488f5",
+                      "city": "57",
+                      "area": "Khandagiri",
+                      "totalRatingsString": "50+ ratings",
+                      "cloudinaryImageId": "suqyvj5xgpo9e61xzhin",
+                      "cuisines": ["American", "Fast Food"],
+                      "tags": [],
+                      "costForTwo": 20000,
+                      "costForTwoString": "₹200 FOR TWO",
+                      "deliveryTime": 53,
+                      "minDeliveryTime": 53,
+                      "maxDeliveryTime": 53,
+                      "slaString": "53 MINS",
+                      "lastMileTravel": 6.495999813079834,
+                      "slugs": {
+                        "restaurant": "indiana-burgers-khandagiri-khandagiri",
+                        "city": "bhubaneswar"
+                      },
+                      "cityState": "57",
+                      "address": "N-3/184, IRC Village, P.S Nayappalli, Bhubaneshwar, Opp to Ekamra Park Main Gate ,Odisha, BHUBANESHWAR MUNICIPAL CORPORATION, Orissa- 751015",
+                      "locality": "Khandagiri",
+                      "parentId": 0,
+                      "unserviceable": false,
+                      "veg": false,
+                      "select": false,
+                      "favorite": false,
+                      "tradeCampaignHeaders": [],
+                      "aggregatedDiscountInfo": {
+                        "header": "60% off",
+                        "shortDescriptionList": [
+                          {
+                            "meta": "60% off | Use DEAL60",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ],
+                        "descriptionList": [
+                          {
+                            "meta": "60% off up to ₹120 | Use code DEAL60",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ]
+                      },
+                      "aggregatedDiscountInfoV2": {
+                        "header": "60% OFF",
+                        "shortDescriptionList": [
+                          {
+                            "meta": "Use DEAL60",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ],
+                        "descriptionList": [
+                          {
+                            "meta": "60% off up to ₹120 | Use code DEAL60",
+                            "discountType": "Percentage",
+                            "operationType": "RESTAURANT"
+                          }
+                        ]
+                      },
+                      "chain": [],
+                      "feeDetails": {
+                        "fees": [
+                          {
+                            "name": "distance",
+                            "fee": 3700,
+                            "message": ""
+                          },
+                          {
+                            "name": "special",
+                            "fee": 0,
+                            "message": ""
+                          },
+                          {
+                            "name": "time",
+                            "fee": 0,
+                            "message": ""
+                          }
+                        ],
+                        "totalFees": 3700,
+                        "message": "",
+                        "title": "Delivery Charge",
+                        "amount": "3700",
+                        "icon": ""
+                      },
+                      "availability": {
+                        "opened": true,
+                        "nextOpenMessage": "",
+                        "nextCloseMessage": ""
+                      },
+                      "longDistanceEnabled": 0,
+                      "rainMode": "NONE",
+                      "thirdPartyAddress": false,
+                      "thirdPartyVendor": "",
+                      "adTrackingID": "",
+                      "badges": {
+                        "imageBased": [],
+                        "textBased": [],
+                        "textExtendedBadges": []
+                      },
+                      "lastMileTravelString": "6.4 kms",
+                      "hasSurge": false,
+                      "promoted": false,
+                      "avgRating": "4.5",
+                      "totalRatings": 50,
+                      "new": true
+                    }
+                  ],
+                  "totalCount": 26,
+                  "dwebOpenFilterTitle": "What's New",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "niuxuv25rqkboowdazqx",
+                  "dwebOpenFilterDeselectIcon": "hxizld3pqhnk0smw27sl"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "cardType": "seeAllRestaurants",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "seeAllRestaurants",
+          "data": {
+            "title": "SEE ALL",
+            "totalOpenRestaurants": 260,
+            "cards": [
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "329350",
+                  "name": "SPICY-7 RESTAURANT",
+                  "uuid": "7581582f-98cb-4da1-819c-7f1c0a8409c3",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "y5lsgqeygiykaqbmysj7",
+                  "cuisines": ["Indian", "Tandoor", "Chinese", "Asian", "Fast Food", "Salads"],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 57,
+                  "minDeliveryTime": 57,
+                  "maxDeliveryTime": 57,
+                  "slaString": "57 MINS",
+                  "lastMileTravel": 2.933000087738037,
+                  "slugs": {
+                    "restaurant": "spicy-7-restaurant-old-bbsr-old-bbsr",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Plot No  469 4483  House No  MIG D  14  Goutam Nagar Lewis Road  District   BHUBANESWAR MUNICIPAL CORPORATION  STATE   Orissa   751002",
+                  "locality": "Old BBSR",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=3167892~p=1~eid=00000178-6e90-e0ce-19e9-42ad00560133",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2.9 kms",
+                  "hasSurge": false,
+                  "promoted": true,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "84929",
+                  "name": "Afiya Delight",
+                  "uuid": "c5827c05-61ff-4438-8182-fd3a1a62ef9c",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "fpr2q5fsuiixy87da1sl",
+                  "cuisines": ["Indian", "Chinese", "Tandoor"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 29,
+                  "minDeliveryTime": 29,
+                  "maxDeliveryTime": 29,
+                  "slaString": "29 MINS",
+                  "lastMileTravel": 0.6869999766349792,
+                  "slugs": {
+                    "restaurant": "afiya-delight-kharabela-nagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Janpath,Unit-3,Opposite padmalaya book store,Kharavel Nagar",
+                  "locality": "Kharavel Nagar",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "50% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "50% off | Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "50% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.6 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "98318",
+                  "name": "Rajdhani Hotel",
+                  "uuid": "753fe93e-e3c6-435f-bc27-3314ce94c041",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "k2vjkmdc8dzdxv6wfh6l",
+                  "cuisines": ["North Indian", "Chinese", "Biryani", "Thalis", "Seafood", "Fast Food"],
+                  "tags": [],
+                  "costForTwo": 15000,
+                  "costForTwoString": "₹150 FOR TWO",
+                  "deliveryTime": 32,
+                  "minDeliveryTime": 32,
+                  "maxDeliveryTime": 32,
+                  "slaString": "32 MINS",
+                  "lastMileTravel": 0.6499999761581421,
+                  "slugs": {
+                    "restaurant": "rajdhani-fast-food-kharbela-nagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Near Blackberrys Showroom, Chandrama Complex Lane, Kharabela Nagar, Bhubaneshwar",
+                  "locality": "Sahid Nagar",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "50% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "50% off | Use TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "50% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.6 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "3.5",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "298097",
+                  "name": "SNACKS POINT",
+                  "uuid": "2267fe11-88fe-4b3b-93f4-80acfb61c2bc",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "kuzas313rx0gr2pes1fn",
+                  "cuisines": ["Snacks"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 44,
+                  "minDeliveryTime": 44,
+                  "maxDeliveryTime": 44,
+                  "slaString": "44 MINS",
+                  "lastMileTravel": 5.35099983215332,
+                  "slugs": {
+                    "restaurant": "snacks-point-pratap-nagar-pratap-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "plot no 544 lewis road,Samantarapur,Bhubaneswar",
+                  "locality": "Samantarapur",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2700,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2700,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2700",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=3135121~p=4~eid=00000178-6e90-e0ce-19e9-42ae0056044f",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5.3 kms",
+                  "hasSurge": false,
+                  "promoted": true,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "188932",
+                  "name": "Narula's Restaurant",
+                  "uuid": "dbe3052a-196c-4918-9131-bba693b8e2ab",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "edngxnvsx80cppjbck6v",
+                  "cuisines": ["North Indian", "Indian"],
+                  "tags": [],
+                  "costForTwo": 40000,
+                  "costForTwoString": "₹400 FOR TWO",
+                  "deliveryTime": 39,
+                  "minDeliveryTime": 39,
+                  "maxDeliveryTime": 39,
+                  "slaString": "39 MINS",
+                  "lastMileTravel": 0.5519999861717224,
+                  "slugs": {
+                    "restaurant": "narula's-restaurant-old-bbsr-old-bbsr",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Plot No. 45/46, Janpath road, Jan Path South, Ashok Nagar, Bhubaneswar, Odisha 751009, India",
+                  "locality": "Old BBSR",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.5 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.0",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "117314",
+                  "name": "Kuk-Doo-Koo",
+                  "uuid": "69b60d79-0664-4f70-b8d7-22105f064656",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "20+ ratings",
+                  "cloudinaryImageId": "slkczym3xcjjbbxihnbl",
+                  "cuisines": ["Indian", "Chinese", "Tandoor"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 27,
+                  "minDeliveryTime": 27,
+                  "maxDeliveryTime": 27,
+                  "slaString": "27 MINS",
+                  "lastMileTravel": 0.20499999821186066,
+                  "slugs": {
+                    "restaurant": "kuk-doo-koo-kharbela-nagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Station Square, Master Canteen Area, Kharabela Nagar, Bhubaneswar",
+                  "locality": "Kharbela Nagar",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.2 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "3.3",
+                  "totalRatings": 20,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "191689",
+                  "name": "Oberai Bakers & Cafe ",
+                  "uuid": "7c6b0f13-2a28-4afe-8c9c-fd8d1c415b89",
+                  "city": "57",
+                  "area": "Rasulgarh",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "hykbeg6boj0xydptikrt",
+                  "cuisines": ["Bakery", "Chinese", "Continental"],
+                  "tags": [],
+                  "costForTwo": 40000,
+                  "costForTwoString": "₹400 FOR TWO",
+                  "deliveryTime": 37,
+                  "minDeliveryTime": 37,
+                  "maxDeliveryTime": 37,
+                  "slaString": "37 MINS",
+                  "lastMileTravel": 2.8369998931884766,
+                  "slugs": {
+                    "restaurant": "oberai-bakers-&-cafe-rasulgarh-rasulgarh",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "6, Nh-203, Budheswari Colony, Laxmisagar, Bhubaneswar, Odisha 751006, India",
+                  "locality": "Rasulgarh",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "50% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "50% off | Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "50% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=3167854~p=7~eid=00000178-6e90-e0ce-19e9-42af00560732",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2.8 kms",
+                  "hasSurge": false,
+                  "promoted": true,
+                  "avgRating": "4.2",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "340242",
+                  "name": "ADI'S DHABA ( SHUDDHA DESI ODIA KHADYA )",
+                  "uuid": "47844be2-4c61-40e8-810a-3919d70de938",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "yd5coyew8ah4rff3nw4s",
+                  "cuisines": ["Indian"],
+                  "tags": [],
+                  "costForTwo": 40000,
+                  "costForTwoString": "₹400 FOR TWO",
+                  "deliveryTime": 41,
+                  "minDeliveryTime": 41,
+                  "maxDeliveryTime": 41,
+                  "slaString": "41 MINS",
+                  "lastMileTravel": 0.2770000100135803,
+                  "slugs": {
+                    "restaurant": "adi's-dhaba-(-shuddha-desi-odia-khadya-)-old-bbsr-old-bbsr",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "AMIYA KUMAR CHOUDHURY, PLOT NO-P, KHARVELA NAGAR, UNIT-3, BHUBANESWAR, Unit-II & Unit-III Govt. Qtrs, Ward 40, BHUBANESWAR MUNICIPAL CORPORATION, Orissa-751001",
+                  "locality": "Old BBSR",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.2 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "223884",
+                  "name": "Wow! Momo",
+                  "uuid": "acaa0487-abfb-4161-b908-780c907e162e",
+                  "city": "57",
+                  "area": "Sahid Nagar",
+                  "totalRatingsString": "50+ ratings",
+                  "cloudinaryImageId": "talddra730yyt18zlmwp",
+                  "cuisines": ["Tibetan", "Fast Food", "Chinese", "Snacks", "Continental", "Desserts"],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 31,
+                  "minDeliveryTime": 31,
+                  "maxDeliveryTime": 31,
+                  "slaString": "31 MINS",
+                  "lastMileTravel": 0.43799999356269836,
+                  "slugs": {
+                    "restaurant": "wow-momo-master-canteen-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Wow Momo Foods PVT LTD, 108-D, Master canteen, Station square,Bhubaneswar,PIN - 751030",
+                  "locality": "Master canteen",
+                  "parentId": 1776,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "60% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "60% off | Use DEAL60",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "60% off up to ₹120 | Use code DEAL60",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "60% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use DEAL60",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "60% off up to ₹120 | Use code DEAL60",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.4 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.4",
+                  "totalRatings": 50,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "76134",
+                  "name": "Biryani 247",
+                  "uuid": "7f2ba38b-7035-4481-a680-11e3682084bc",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "quihh4svqehmmoiylzbn",
+                  "cuisines": ["Biryani"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 35,
+                  "minDeliveryTime": 35,
+                  "maxDeliveryTime": 35,
+                  "slaString": "35 MINS",
+                  "lastMileTravel": 2.5269999504089355,
+                  "slugs": {
+                    "restaurant": "biryani-247-sahid-nagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Plot 901, Satya Nagar, Bhubaneshwar",
+                  "locality": "Near Chcolate house",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "40% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "40% off | Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "40% off up to ₹80 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "40% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "40% off up to ₹80 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=3167861~p=10~eid=00000178-6e90-e0ce-19e9-42b000560a6b",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2.5 kms",
+                  "hasSurge": false,
+                  "promoted": true,
+                  "avgRating": "4.1",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "78062",
+                  "name": "Bocca Cafe",
+                  "uuid": "ed8354de-d7b7-4922-9853-e9aff08046e2",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "50+ ratings",
+                  "cloudinaryImageId": "oqyijsiidfyxbpwe7ahl",
+                  "cuisines": ["Cafe", "Italian", "Continental"],
+                  "tags": [],
+                  "costForTwo": 50000,
+                  "costForTwoString": "₹500 FOR TWO",
+                  "deliveryTime": 34,
+                  "minDeliveryTime": 34,
+                  "maxDeliveryTime": 34,
+                  "slaString": "34 MINS",
+                  "lastMileTravel": 0.4699999988079071,
+                  "slugs": {
+                    "restaurant": "bocca-cafe-kharbela-nagar-nayapalli",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "108/B, 1st Floor, Janpath Road, Master Canteen Area, Kharabela Nagar, Bhubaneshwar",
+                  "locality": "Kharbela Nagar",
+                  "parentId": 7281,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.4 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 50,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "77321",
+                  "name": "Qdoba",
+                  "uuid": "c9264ab2-6b61-4104-acf1-c8b7c41f0d64",
+                  "city": "57",
+                  "area": "Sahid Nagar",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "xydmztsazkmsxsxumerz",
+                  "cuisines": ["Mexican", "Fast Food"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 31,
+                  "minDeliveryTime": 31,
+                  "maxDeliveryTime": 31,
+                  "slaString": "31 MINS",
+                  "lastMileTravel": 0.6349999904632568,
+                  "slugs": {
+                    "restaurant": "qdoba-satyanagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Plot no-170(Spr)  Unit-3,Kharvel Nagar, Bhubaneswar, 751001",
+                  "locality": "Satya Nagar",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "30% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "30% off | Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "30% off up to ₹75 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "30% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "30% off up to ₹75 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.6 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.2",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "289704",
+                  "name": "Keyars Kitchen",
+                  "uuid": "e2f8839e-dba3-4289-a716-e1d64b31273a",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "hes6dinuu9nvzqbrpnqg",
+                  "cuisines": ["North Indian", "Chinese"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 40,
+                  "minDeliveryTime": 40,
+                  "maxDeliveryTime": 40,
+                  "slaString": "40 MINS",
+                  "lastMileTravel": 1.753000020980835,
+                  "slugs": {
+                    "restaurant": "keyars-food-multi-cuisine-restaurant-old-bbsr-old-bbsr",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Raunaq Manoj, Plot No-219, Bapuji Nagar, Ward\\\\r\\\\n47, BHUBANESWAR MUNICIPAL CORPORATION\\\\r\\\\n(Orissa), - 751009",
+                  "locality": "Old BBSR",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "50% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "50% off | Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "50% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code SWIGGYIT",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=3153084~p=13~eid=00000178-6e90-e0ce-19e9-42b100560d63",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "1.7 kms",
+                  "hasSurge": false,
+                  "promoted": true,
+                  "avgRating": "3.9",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "83409",
+                  "name": "Food Factory",
+                  "uuid": "7b8bafe6-48bc-44c5-be65-51c6d1f2f3b1",
+                  "city": "57",
+                  "area": "Sahid Nagar",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "jmp9hv4235dtkumno9on",
+                  "cuisines": ["Indian", "Biryani", "Chinese"],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 29,
+                  "minDeliveryTime": 29,
+                  "maxDeliveryTime": 29,
+                  "slaString": "29 MINS",
+                  "lastMileTravel": 1.5149999856948853,
+                  "slugs": {
+                    "restaurant": "food-factory-sahid-nagar-sahid-nagar",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Near Ram Mandir Square, Kharabela Nagar",
+                  "locality": "Sahid Nagar",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "50% off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "50% off | Use TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "50% OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "50% off up to ₹100 | Use code TRYNEW",
+                        "discountType": "Percentage",
+                        "operationType": "RESTAURANT"
+                      }
+                    ]
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [],
+                    "totalFees": 0,
+                    "message": "",
+                    "title": "",
+                    "amount": "",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "1.5 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "351139",
+                  "name": "La-Bouffe",
+                  "uuid": "87f0b308-7622-46b3-8044-fa9c96bf440f",
+                  "city": "57",
+                  "area": "Old BBSR",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "vgkja4lo9pypcteqpmn5",
+                  "cuisines": ["North Indian", "Chinese", "Tandoor"],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 40,
+                  "minDeliveryTime": 40,
+                  "maxDeliveryTime": 40,
+                  "slaString": "40 MINS",
+                  "lastMileTravel": 0.8960000276565552,
+                  "slugs": {
+                    "restaurant": "la-bouffe-old-bbsr-old-bbsr",
+                    "city": "bhubaneswar"
+                  },
+                  "cityState": "57",
+                  "address": "Plot No. 126/A, Ashok Nagar, Unit - 2, Bhubaneswar",
+                  "locality": "Old BBSR",
+                  "parentId": 0,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 2200,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 2200,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2200",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.8 kms",
+                  "hasSurge": false,
+                  "promoted": false,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": true
+                },
+                "subtype": "basic"
+              }
+            ],
+            "totalRestaurants": 260
+          },
+          "subtype": "personalized"
+        }
+      }
+    ],
+    "nextPageFetch": 0
+  },
+  "tid": "25c148c4-1cf6-4460-af74-4166ba34788e",
+  "sid": "smiefc99-cc17-4e7d-a527-7f394e23ed7f",
+  "deviceId": "27f1e651-c973-4af5-bb24-e9edde3ebb68",
+  "csrfToken": "mvMdzbH26jmm-fN7UyKERmNH_mE3QolcBc9ogfcc"
+}

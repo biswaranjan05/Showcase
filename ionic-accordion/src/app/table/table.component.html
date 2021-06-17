@@ -1,0 +1,107 @@
+<ion-app>
+  <ion-card>
+    <div *ngIf="condition">
+      <ion-item>Karma is a Bitch</ion-item>
+    </div>
+    <div *ngIf="!condition">
+      <ion-item>Work Hard</ion-item>
+    </div>
+
+    <div>
+      <ion-segment value="favorite">
+        <ion-segment-button value="call" (click)="cond = true">
+          <ion-label>Call</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="favorite" (click)="cond = false">
+          <ion-label>Favorite</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+
+    <div *ngIf="cond">
+      <ion-list style="margin-left: 100px;margin-right: 180px;background-color:cyan;">
+        <ion-item>Name : Biswa</ion-item>
+        <ion-item>Name : Sai</ion-item>
+        <ion-item>Name : Vig</ion-item>
+        <ion-item>Name : Kylie</ion-item>
+      </ion-list>
+    </div>
+
+    <div *ngIf="!cond">
+      <ion-list style="margin-left: 100px;margin-right: 180px;background-color: cyan;">
+        <ion-item>Age : 23 </ion-item>
+        <ion-item>Age : 23 </ion-item>
+        <ion-item>Age : 22 </ion-item>
+        <ion-item>Age : 23 </ion-item>
+      </ion-list>
+    </div>
+
+    <ion-segment style="background-color: rgb(241, 234, 234);">
+      <ion-segment-button (click)="condition = true" style=" border-radius: 5px ;">
+        Click 1 </ion-segment-button
+      >&nbsp;&nbsp;
+      <ion-segment-button (click)="condition = false" style=" border-radius: 3px ;">
+        CLick 2
+      </ion-segment-button>
+    </ion-segment>
+
+    <div>
+      <ion-fab vertical="end" horizontal="end" slot="fixed">
+        <ion-fab-button>
+          <ion-icon name="arrow-back-circle"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+
+      <ion-fab vertical="center" horizontal="center" slot="fixed">
+        <ion-fab-button color="dark">
+          <ion-icon name="share"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="top">
+          <ion-fab-button><ion-icon name="logo-vimeo" color="dark"></ion-icon></ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="bottom">
+          <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="start">
+          <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="end">
+          <ion-fab-button><ion-icon name="logo-twitter" color="primary"></ion-icon></ion-fab-button>
+        </ion-fab-list>
+      </ion-fab>
+
+      <!-- <ion-fab vertical="center" horizontal="start" edge slot="fixed">
+      <ion-fab-button>
+        <ion-icon name="settings"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="end">
+        <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab> -->
+
+      <ion-segment scrollable value="heart">
+        <ion-segment-button value="home">
+          <ion-icon name="home"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="heart">
+          <ion-icon name="heart"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="pin">
+          <ion-icon name="pin"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="star">
+          <ion-icon name="star"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="call">
+          <ion-icon name="call"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="globe">
+          <ion-icon name="globe"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="basket">
+          <ion-icon name="basket"></ion-icon>
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+  </ion-card>
+</ion-app>

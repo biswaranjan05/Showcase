@@ -1,0 +1,21 @@
+.main_card {
+  background-image: url(../../assets/card/bg.jpg);
+  .group {
+    height: 77px;
+    width: 100%;
+
+    position: absolute;
+    margin-top: -335px;
+  }
+  .textarea {
+    width: 128px;
+    height: 155px;
+    background-color: white;
+    position: absolute;
+    margin-top: -221px;
+    margin-left: 269px;
+  }
+  .tabs {
+    z-index: 99px;
+  }
+}

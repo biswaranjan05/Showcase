@@ -1,0 +1,38 @@
+<ion-menu>
+  <ion-content>
+    <div ion-fixed>
+      <div class="profile" text-center padding>
+        <ion-icon class="profile-icon" name="contact"></ion-icon>
+        <div>
+          <ion-menu-toggle auto-hide="false">
+            <ion-button
+              class="profile-button"
+              color="light"
+              (click)="showProfileActions()"
+              shape="round"
+              fill="outline"
+              size="small"
+              expand="block"
+            >
+              <ion-icon name="person"></ion-icon> {{ username }}
+            </ion-button>
+          </ion-menu-toggle>
+        </div>
+      </div>
+      <ion-list>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item [routerDirection]="'root'" routerLink="/home" routerLinkActive="active">
+            <ion-button><span translate>Home</span></ion-button>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item [routerDirection]="'root'" routerLink="/new-component" routerLinkActive="active">
+            <ion-button><span translate>Go to Page2</span></ion-button>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-menu>
+
+<ion-router-outlet main></ion-router-outlet>

@@ -1,0 +1,23 @@
+<!-- <p>
+  portf works!
+</p> -->
+<ion-content>
+  <div *ngFor="let data of datas">
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col style="color: grey;" size-md="1" size-lg="1" size-xl="2" size-sm="2">
+            <ion-avatar style="height: 40px;width: 40px;"><img src="{{ data.icon }}"/></ion-avatar>
+          </ion-col>
+          <ion-col size-lg="3" size-xl="6">
+            <ion-input style="font-weight: bolder; color: #040404;" placeholder="Write reply ..."></ion-input>
+            <!-- <strong>{{data.text}}</strong> -->
+          </ion-col>
+          <ion-col size-xl="4">
+            <button style="margin-top: 10px;">Submit</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+</ion-content>

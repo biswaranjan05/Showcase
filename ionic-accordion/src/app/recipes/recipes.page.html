@@ -1,0 +1,131 @@
+<!-- <ion-content id="colo">
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title color="danger">Recipes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+ <ion-item>
+  <ion-avatar>
+    <img src="https://www.spendwithpennies.com/wp-content/uploads/2019/02/Baked-Chicken-Thighs-SpendWithPennies-23.jpg">
+  </ion-avatar>
+    <ion-label position="floating">Input Here</ion-label>
+     <ion-input type="text" id="name" name="name" ></ion-input>
+  
+  </ion-item>
+  <ion-item>
+    <ion-avatar>
+      <img src="https://www.spendwithpennies.com/wp-content/uploads/2019/02/Baked-Chicken-Thighs-SpendWithPennies-26.jpg">
+    </ion-avatar>
+    <ion-label position="floating">Any Number</ion-label>
+    <ion-input type="number" id="input-num" name="name"></ion-input> 
+    </ion-item> 
+    <ion-button id="sub-btn"><span style="font-size: 25px;">Submit</span>
+      <ion-icon slot="icon-only" name="star"></ion-icon>
+    </ion-button>
+    <ion-list id="course-list"></ion-list>
+
+
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+          <p>Total List: <span id="total-list"></span><p>
+      </ion-col>
+  </ion-row>
+</ion-content>
+</ion-content> -->
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Interface Options
+      </ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-button>Alert</ion-button>
+      <ion-select [interfaceOptions]="customAlertOptions" interface="alert" multiple="true" placeholder="Select One">
+        <ion-select-option value="bacon">Bacon</ion-select-option>
+        <ion-select-option value="olives">Black Olives</ion-select-option>
+        <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+        <ion-select-option value="peppers">Green Peppers</ion-select-option>
+        <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+        <ion-select-option value="onions">Onions</ion-select-option>
+        <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+        <ion-select-option value="pineapple">Pineapple</ion-select-option>
+        <ion-select-option value="sausage">Sausage</ion-select-option>
+        <ion-select-option value="Spinach">Spinach</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Popover</ion-label>
+      <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+        <ion-select-option value="brown">Brown</ion-select-option>
+        <ion-select-option value="blonde">Blonde</ion-select-option>
+        <ion-select-option value="black">Black</ion-select-option>
+        <ion-select-option value="red">Red</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Action Sheet</ion-label>
+      <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+        <ion-select-option value="red">Red</ion-select-option>
+        <ion-select-option value="purple">Purple</ion-select-option>
+        <ion-select-option value="yellow">Yellow</ion-select-option>
+        <ion-select-option value="orange">Orange</ion-select-option>
+        <ion-select-option value="green">Green</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-col class="dropdown">
+    <button class="dropbtn">IMPORT PROMO</button>
+    <div class="dropdown-content">
+      <a href="#">FROM LARGEPOCKET</a>
+      <a href="#">FROM RENTASTICO</a>
+    </div>
+  </ion-col>
+
+  <ion-item>
+    <ion-label>Select: Alert Interface</ion-label>
+    <ion-select class="custom-options">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Select: Alert Interface (Multiple Selection)</ion-label>
+    <ion-select class="custom-options" multiple="true">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Select: Popover Interface</ion-label>
+    <ion-select interface="popover" class="custom-options">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Select: Action Sheet Interface</ion-label>
+    <ion-select interface="action-sheet" class="custom-options">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+</ion-content>

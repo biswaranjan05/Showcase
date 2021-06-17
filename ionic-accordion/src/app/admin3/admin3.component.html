@@ -1,0 +1,117 @@
+<p>
+  admin3 works!
+</p>
+<ion-app>
+  ​
+  <ion-menu side="start" content-id="main-content" type="push">
+    <ion-toolbar
+      class="Toolbar-rentastico"
+      color="rgba(78, 173, 184, 0.8)"
+      style="background-color: 
+      rgba(78, 173, 184, 0.8);"
+    >
+      <ion-buttons slot="start"></ion-buttons>
+      Rentastico ​ ​
+    </ion-toolbar>
+    <div style="background-image:url(./../../assets/admin/bg_blur.jpg); padding: 0;margin: 0;height: 795px;">
+      <div style="background-color:rgba(255, 255, 255, 0.6);height: 795px;padding:0;margin:0;padding-top: 29px;">
+        ​ ​
+        <ion-avatar
+          style="width: 188.2px;height: 190.8px;box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.16);
+        border: solid 5px rgba(255, 255, 255, 0.8);margin-left: 51px;"
+        >
+          <img src="assets/user-profile.png" />
+        </ion-avatar>
+        <br />
+        <ion-item lines="none" style="text-align: center;vertical-align: center;">
+          <ion-icon style="margin-left: 54px;" class="Icon-awesome-user-alt " name="person"></ion-icon>
+          <ion-text style="margin-left: 14px;" class="Laurie-Mona">Laurie-Mona</ion-text>
+        </ion-item>
+        <div style="overflow-y: auto;scroll-behavior: smooth;">
+          <ion-list>
+            <ion-item style="background-color: white;padding: 0;">
+              <ion-icon style="color:  #ff9f1c;" class="Icon-menus" name="home"></ion-icon>
+              <ion-label style="color: #011627;" class="list-opts">Dashboard</ion-label>
+              <ion-icon name="caret-down"></ion-icon>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-icon class="Icon-menus" name="paper-plane"></ion-icon>
+              <ion-label (click)="openProperties = !openProperties" class="list-opts">Properties</ion-label>
+            </ion-item>
+            <ion-list *ngIf="openProperties">
+              <ion-item>
+                <ion-label style="color: #011627;" class="list-opts">All Properties</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label style="color: #011627;" class="list-opts">Top Properties</ion-label>
+              </ion-item>
+            </ion-list>
+            <ion-item lines="none">
+              <ion-icon class="Icon-menus" name="person"></ion-icon>
+              <ion-label (click)="openUsers = !openUsers" class="list-opts">Users</ion-label>
+            </ion-item>
+            <ion-list *ngIf="openUsers">
+              <ion-item>
+                <ion-label style="color: #011627;" class="list-opts">All Users</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label style="color: #011627;" class="list-opts" routerLink="/manager">Managers</ion-label>
+              </ion-item>
+            </ion-list>
+            <ion-item lines="none">
+              <ion-icon class="Icon-menus" name="archive"></ion-icon>
+              <ion-label class="list-opts">Policy</ion-label>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-icon class="Icon-menus" name="Settings"></ion-icon>
+              <ion-label class="list-opts">Settings</ion-label>
+            </ion-item>
+          </ion-list>
+        </div>
+      </div>
+    </div>
+  </ion-menu>
+  ​
+  <div class="ion-page" id="main-content">
+    <div>
+      <ion-header style="margin:0;padding: 0;">
+        <ion-toolbar style="height: 56px;background-color: rgba(55, 188, 176, 0.75);" color="rgba(55, 188, 176, 0.75)">
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-button color="light" class="Join-now" style="margin-left: 750px;">Join Now</ion-button>
+          <ion-button color="danger" class="Join-now">Live Video</ion-button>
+          <ion-button style="background:none;" color="none"
+            ><ion-icon
+              style="color: white;font-size: 30px;
+            box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.16);"
+              name="search"
+            ></ion-icon
+          ></ion-button>
+          <ion-button style="background:none;" color="none"
+            ><ion-icon
+              style="color: white;font-size: 30px;
+              box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.16);"
+              name="help-circle"
+            ></ion-icon
+          ></ion-button>
+          <ion-button style="background:none;" color="none"
+            ><ion-icon
+              style="color: white;font-size: 30px;
+                      box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.16);"
+              name="person"
+            ></ion-icon
+          ></ion-button>
+        </ion-toolbar>
+      </ion-header>
+      ​
+      <ion-row>
+        <ion-col size="0.5" *ngIf="false" style="height: 660px;background-color: turquoise;margin:0;padding: 0;">
+          ​
+        </ion-col>
+        <app-admin></app-admin>
+      </ion-row>
+      ​ ​
+    </div>
+  </div>
+</ion-app>

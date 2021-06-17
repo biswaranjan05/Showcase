@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 73.7 73.7">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="a" data-name="Unbenannter Verlauf 164" y1="36.85" x2="73.7" y2="36.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ba0d9"/>
+      <stop offset="1" stop-color="#4774b9"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="36.85" cy="36.85" r="36.85"/>
+    <path class="b" d="M43.26,42.14v8.11H33.92V60.89h9.34V86.35a36.56,36.56,0,0,0,6.41.56,37.33,37.33,0,0,0,5.1-.36V60.89h8.58L65,50.25H54.77V43.34c0-2.91,1.43-5.75,6-5.75h4.64V28.53a56.48,56.48,0,0,0-8.24-.72C48.76,27.81,43.26,32.91,43.26,42.14Z" transform="translate(-12.81 -13.2)"/>
+  </g>
+</svg>

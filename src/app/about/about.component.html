@@ -1,0 +1,51 @@
+<p>some text</p>
+<h4 style="text-align:center">Pie Chart For Browser usage of &nbsp; Eduforbetterment.com</h4>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Pie Chart</title>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+    <style>
+      html,
+      body,
+      #container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" style="width: 100%; height: 100%"></div>
+    <script>
+      anychart.onDocumentReady(function() {
+        // set the data
+        var data = [
+          { x: 'BiswaRanjan', value: 223553265 },
+          { x: 'BibhutiBhusan', value: 38929319 },
+          // {x: "American Indian and Alaska Native", value: 2932248},
+          { x: 'MSD', value: 14674252 },
+          { x: 'SK', value: 540013 }
+          // {x: "Some Other Race", value: 19107368},
+          // {x: "Two or More Races", value: 9009073}
+        ];
+
+        // create the chart
+        var chart = anychart.pie();
+
+        // set the chart title
+        chart.title('Demo Pie Chart ');
+
+        // add the data
+        chart.data(data);
+
+        // display the chart in the container
+        chart.container('container');
+        chart.draw();
+      });
+    </script>
+  </body>
+</html>

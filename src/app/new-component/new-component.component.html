@@ -1,0 +1,645 @@
+<!-- <ion-tabs>
+  <ion-tab-bar id="tab" slot="bottom">
+    <ion-tab-button tab="schedule">
+      <ion-icon name="calendar"></ion-icon>
+      <ion-label>Schedule</ion-label>
+      <ion-badge>6</ion-badge>
+    </ion-tab-button>
+
+    <ion-tab-button tab="speakers">
+      <ion-icon name="person-circle"></ion-icon>
+      <ion-label>Speakers</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>Map</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="about">
+      <ion-icon name="information-circle"></ion-icon>
+      <ion-label>About</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+
+<ion-button href="#">Default</ion-button>
+
+<ion-button href="https://www.w3schools.com/js/js_arrow_function.asp" color="primary">First</ion-button>
+<ion-button href="https://en.wikipedia.org/wiki/Lionel_Messi" color="secondary">Second</ion-button>
+<ion-button href="http://rentastico.com/about/rentastico" color="tertiary">Third</ion-button>
+<ion-button href="https://en.wikipedia.org/wiki/Kylie_Jenner" color="success">Fourth</ion-button>
+<ion-button href="https://www.w3schools.com/js/js_arrow_function.asp" color="warning">Fifth</ion-button>
+<ion-button color="danger">Sixth</ion-button>
+<ion-button color="light">Hey</ion-button>
+<ion-button href="https://en.wikipedia.org/wiki/MS_Dhoni " color="medium">Do</ion-button>
+<ion-button href="https://en.wikipedia.org/wiki/Shiva" color="dark">Click</ion-button>
+
+<ion-button expand="full">Full Button</ion-button>
+<ion-button expand="block">Block Button</ion-button>
+
+<ion-button shape="round">Round Button</ion-button><br />
+
+
+<ion-button expand="full" fill="outline">Outline + Full</ion-button>
+<ion-button expand="block" fill="outline">Outline + Block</ion-button>
+<ion-button shape="round" fill="outline">Outline + Round</ion-button><br />
+
+
+
+<ion-button>
+  <ion-icon slot="start" name="star"></ion-icon>
+  Biswa
+</ion-button>
+
+<ion-button>
+  Right Icon
+  <ion-icon slot="end" name="star"></ion-icon>
+</ion-button>
+
+<ion-button>
+  <ion-icon slot="icon-only" name="star"></ion-icon>
+</ion-button>
+<br /><br />
+
+
+<ion-button href="_self" size="large">Large</ion-button>
+<ion-button>Default</ion-button>
+<ion-button size="small">Small</ion-button> -->
+
+<ion-content>
+  <ion-grid class="create_post_styl">
+    <div class="destop">
+      <ion-row style="background-color: #000000;">
+        <div class="main-head">
+          <div class="lists">
+            <!-- <app-back-button slot="start" *ngIf="!globaldata.mainheader"></app-back-button> -->
+            <div class="logo">
+              <img src="assets/images/Travel2ube Logo.svg" [routerLink]="['/home']" routerLinkActive="active" />
+            </div>
+            <!-- <div >
+        
+                  <img src="assets/images/Travel2ube Logo.svg" [routerLink]="['/user-timeline', user && user.username, 'all-posts']" routerLinkActive="active" />
+                </div>
+         -->
+            <div class="list-items">
+              <nav class="menu-subParts">
+                <ul class="header_ul">
+                  <p
+                    class="header_txt"
+                    [ngClass]="{ 'list-hover': modalStyleIp == 'tsn' }"
+                    (click)="presentPopover($event, 'tsn')"
+                  >
+                    Travelers & Social Network
+                  </p>
+                  <p
+                    class="header_txt"
+                    [ngClass]="{ 'list-hover': modalStyleIp == 'travelation' }"
+                    (click)="presentPopover($event, 'travelation')"
+                  >
+                    Travelnation
+                  </p>
+                  <p
+                    class="header_txt"
+                    [ngClass]="{ 'list-hover': modalStyleIp == 'strem' }"
+                    (click)="presentPopover($event, 'strem')"
+                  >
+                    Travelstream
+                  </p>
+                  <p
+                    class="header_txt"
+                    [ngClass]="{ 'list-hover': modalStyleIp == 'twork' }"
+                    (click)="presentPopover($event, 'twork')"
+                  >
+                    Travelwork
+                  </p>
+                  <p
+                    class="header_txt"
+                    [ngClass]="{ 'list-hover': modalStyleIp == 'trips' }"
+                    (click)="presentPopover($event, 'trips')"
+                  >
+                    Trips|Experiences
+                  </p>
+                  <!-- <li class="travelation"> Photos</li>
+                      <li class="travelation"> Videos</li> -->
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div style="display: flex">
+            <div style="display: flex; align-items: center">
+              <div class="margin-left:25px">
+                <ion-input type="text" class="ion-itemInput">
+                  <ion-icon name="search" style="color:#fff;" class="serch-icon"></ion-icon>
+                </ion-input>
+                <hr />
+              </div>
+
+              <div
+                style="position: relative;
+                  height: 54px;
+                  width: 54px;
+                  border-radius: 50%;
+                  border: 1px solid white;
+                  margin: -12% 0px 0px;
+                  margin-left: 61vw;"
+              >
+                <a [routerLink]="['/login']">
+                  <ion-icon name="person" class="person-icon" style="color: white"></ion-icon>
+                </a>
+              </div>
+              <div
+                class="tabs_heading cur_ptr"
+                fill="clear"
+                style="color: #fff; padding: 0; margin-top: 10px; outline:none;"
+                *ngIf="isTokenAvailabele"
+                [routerLink]="['/profile', user && user.username, 'timeline']"
+                routerLinkActive="router-link-active"
+              >
+                {{ user ? user.firstName : '' }} .{{ user && user.lastName ? user.lastName.slice(0, 1) : '' }}
+                <!-- <img *ngIf="isTokenAvailabele" class="avatar"
+                      [src]="user && user.profilePic ? (user.profilePic | safe: 'url') : 'assets/profile/male-avatar.png'"
+                      alt="" /> -->
+              </div>
+            </div>
+            <div class="search-button">
+              <ion-menu-button (click)="openSelectedMenu('third')" contentId="main2" id="main2" menuId="third">
+                <ion-icon name="search-outline" style="color: white"></ion-icon>
+              </ion-menu-button>
+            </div>
+
+            <div class="maill-button">
+              <ion-menu-button (click)="openSelectedMenu('first')" contentId="main" id="main" menuId="first">
+                <ion-icon name="mail" style="color: white"></ion-icon>
+              </ion-menu-button>
+            </div>
+
+            <div class="menu-button">
+              <ion-menu-button (click)="openSelectedMenu('second')" contentId="main1" id="main1" menuId="second">
+                <ion-icon name="menu" style="color: white"></ion-icon>
+              </ion-menu-button>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </div>
+
+    <ion-row>
+      <ion-col class="text_sty">
+        <ion-label class="agency_name_label">Create Post</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-no-padding">
+        <div class="post-total">
+          <ion-row class="data_row">
+            <ion-col class="avatar_col ion-no-padding">
+              <ion-row class="input_row">
+                <ion-avatar>
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png"
+                  />
+                </ion-avatar>
+                <ion-input
+                  placeholder=" What's on your mind {{ userInformation && userInformation.firstName }}. ?"
+                  class="textarea ion-no-padding"
+                >
+                </ion-input>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </div>
+        <ion-button>ADD POST</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="links_row">
+      <ion-col size-xl="10" size-lg="12" size-md="12" size-sm="12" size-xs="12" class="ion-no-padding">
+        <ion-list>
+          <ion-item (click)="addNewUserPost()" color="transparent" lines="none" class="newColor ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.21 112.77" class="click-icon click-icon1">
+              <defs></defs>
+              <g>
+                <path
+                  class="a"
+                  d="M14.89,117.3c0,6.68,4.89,12.09,10.93,12.09h98.36c6,0,10.93-5.41,10.93-12.09V32.7c0-6.68-4.89-12.09-10.93-12.09H25.82c-6,0-10.93,5.41-10.93,12.09Z"
+                  transform="translate(-12.89 -18.61)"
+                />
+                <polyline class="b" points="122.21 68.47 89.43 32.22 40.25 86.6 23.86 68.47 2 92.64" />
+                <ellipse class="a" cx="34.78" cy="37.2" rx="10.93" ry="11.02" />
+              </g>
+            </svg>
+            <ion-label>ADD MEDIA</ion-label>
+          </ion-item>
+          <ion-item color="transparent" lines="none" [routerLink]="['/blog/create']">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.1 113.18" class="click-icon click-icon1">
+              <defs>
+                <!-- <style>
+                      .a {
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: square;
+                        stroke-miterlimit: 10;
+                        stroke-width: 4px;
+                      }
+                    </style> -->
+              </defs>
+              <g>
+                <path
+                  class="a"
+                  d="M124.13,129.59a10.91,10.91,0,0,0,10.92-10.92V20.41H36.79v98.26a10.91,10.91,0,0,1-10.92,10.92Z"
+                  transform="translate(-12.95 -18.41)"
+                />
+                <path
+                  class="a"
+                  d="M36.79,64.08H15v54.59a10.91,10.91,0,0,0,10.92,10.92"
+                  transform="translate(-12.95 -18.41)"
+                />
+                <line class="a" x1="89.35" y1="23.84" x2="100.26" y2="23.84" />
+                <line class="a" x1="100.26" y1="67.51" x2="78.43" y2="67.51" />
+                <line class="a" x1="56.59" y1="67.51" x2="45.67" y2="67.51" />
+                <line class="a" x1="100.26" y1="89.35" x2="45.67" y2="89.35" />
+                <rect class="a" x="45.67" y="23.84" width="21.84" height="21.84" />
+                <line class="a" x1="89.35" y1="45.67" x2="100.26" y2="45.67" />
+              </g>
+            </svg>
+
+            <ion-label>ADD BLOG</ion-label>
+          </ion-item>
+          <ion-item (click)="addNewUserPost()" color="transparent" lines="none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.57 116.67" class="click-icon click-icon1">
+              <defs></defs>
+              <g>
+                <circle class="a" cx="47.79" cy="47.79" r="20.35" />
+                <path
+                  class="b"
+                  d="M29.21,64.83a45.79,45.79,0,0,1,91.58,0c0,29.25-25.44,47-45.79,66.13C54.65,111.83,29.21,94.08,29.21,64.83Z"
+                  transform="translate(-27.21 -17.04)"
+                />
+              </g>
+            </svg>
+            <ion-label>CHECK IN</ion-label>
+          </ion-item>
+          <ion-item color="transparent" lines="none">
+            <img src="../../../assets//travel-timeline/Edit_Black.svg" class="click-icon click-icon1" />
+
+            <ion-label>ADD REVIEW</ion-label>
+          </ion-item>
+          <ion-item color="transparent" lines="none" [routerLink]="['/login']">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.88 114.79" class="click-icon click-icon1">
+              <defs></defs>
+              <g>
+                <path
+                  class="a"
+                  d="M133.94,30.68v88.64a10.9,10.9,0,0,1-10.72,11.08H26.78a10.9,10.9,0,0,1-10.72-11.08V30.68h0v88.64"
+                  transform="translate(-14.06 -17.6)"
+                />
+                <line class="a" x1="71.66" y1="24.16" x2="71.66" y2="2" />
+                <line class="a" x1="50.22" y1="24.16" x2="50.22" y2="2" />
+                <line class="a" x1="93.09" y1="24.16" x2="93.09" y2="2" />
+                <line class="a" x1="28.79" y1="24.16" x2="28.79" y2="2" />
+                <polyline class="a" points="52.9 90.63 74.33 46.32 47.54 46.32" />
+              </g>
+            </svg>
+            <ion-label>CREATE EVENT</ion-label>
+          </ion-item>
+          <ion-item color="transparent" lines="none" [routerLink]="['/shell']">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.57 116.67" class="click-icon click-icon1">
+              <defs></defs>
+              <g>
+                <circle class="a" cx="47.79" cy="47.79" r="20.35" />
+                <path
+                  class="b"
+                  d="M29.21,64.83a45.79,45.79,0,0,1,91.58,0c0,29.25-25.44,47-45.79,66.13C54.65,111.83,29.21,94.08,29.21,64.83Z"
+                  transform="translate(-27.21 -17.04)"
+                />
+              </g>
+            </svg>
+
+            <!-- <ion-icon class="click-icon" name="image-outline"></ion-icon> -->
+            <ion-label>ADD TRIP</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col
+        size-xl="2"
+        size-lg="5"
+        size-md="5"
+        size-sm="5"
+        size-xs="5"
+        push-lg="0"
+        push-md="3.2"
+        push-sm="3.5"
+        push-xs="3.5"
+      >
+        <ion-item class="stream-btn ion-no-margin" color="nocolor" lines="none">
+          <ion-label>
+            <ion-icon name="play"></ion-icon>
+          </ion-label>
+          <ion-select
+            value="{{ MyDefaultLiveValue }}"
+            (ionChange)="liveDropdown($event)"
+            lines="none"
+            mode="ios"
+            interface="popover"
+          >
+            <ion-select-option *ngFor="let item of goLiveDropdown" value="{{ item.id }}"
+              >{{ item.name }}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+
+      <!-- 
+          <ion-col size-xl="4" size-lg="4" size-md="4" size-sm="4" size-xs="4">
+            <span (click)="addNewUserPost()" class="text_sty">Photo/Video</span>
+          </ion-col>
+          <ion-col size-xl="4" size-lg="4" size-md="4" size-sm="4" size-xs="4">
+            <span (click)="addNewUserPost()" class="text_sty">CheckIn</span>
+          </ion-col>
+          <ion-col size-xl="4" size-lg="4" size-md="4" size-sm="4" size-xs="4">
+            <span (click)="addNewUserPost();"
+              class="text_sty">   blog </span>
+          </ion-col> -->
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col
+        class="ion-no-padding"
+        size-xl="5.8"
+        size-lg="5.8"
+        size-md="5.8"
+        size-sm="5.8"
+        size-xs="11"
+        push-xs=".4"
+        push-xl="0"
+        push-sm="0"
+      >
+        <ion-item class="subscribed">
+          <ion-select
+            lines="none"
+            mode="ios"
+            interface="popover"
+            (ionChange)="onSelectChange($event)"
+            value="{{ MyDefaultSubscribedValue }}"
+          >
+            <ion-select-option *ngFor="let item of subscribedContentDropdown" value="{{ item.id }}"
+              >{{ item.name }}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+
+      <ion-col
+        class="ion-no-padding"
+        size-xl="5.8"
+        size-lg="5.8"
+        size-md="5.8"
+        size-sm="5.8"
+        size-xs="11"
+        push-xl=".4"
+        push=".4"
+      >
+        <ion-item class="subscribed">
+          <ion-select
+            lines="none"
+            mode="ios"
+            interface="popover"
+            (ionChange)="selectedPostContent($event)"
+            value="{{ MyDefaultPostvalue }}"
+          >
+            <ion-select-option *ngFor="let post of postTypeDropdown" value="{{ post.value }}"
+              >{{ post.name }}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+      <div>
+        <ion-row style="background-color: black;">
+          <ion-col size="12">
+            <p
+              style="font-size: 40px; display: flex;
+              justify-content: center; font-weight: bold; color: white;
+          "
+            >
+              Trips & Experiences
+            </p>
+            <p
+              style="padding: 0vh 5vw;
+              font-size: 1.2vw;color: white; display: flex;
+              justify-content: center;"
+            >
+              A list of one of a kind tours and experiences hosted by passionate locals. Get inspired through shared
+              experiences on food tours, cooking, art and culture, adventure tours, health &amp; wellness etc.…share
+              their spirit! There is no limit on what you can do, create and curate a unique activity people want to
+              try, do what you love and create an activity your way, show off your city, culture, craft… its endless
+            </p>
+          </ion-col>
+
+          <ion-col size="12">
+            <div>
+              <img src="https://rentastico-dev.s3.us-east-2.amazonaws.com/assets/Trips%26Experience.webp" />
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+
+      <ion-row>
+        <div>
+          <ion-col size="4">
+            <p>FEATURED EVENTS</p>
+
+            <div *ngFor="let pics of pictures">
+              <ion-card style="height: 330px;width: 250px;">
+                <ion-row>
+                  <ion-col size="12">
+                    <img style="height: 170px;width: 249px;" src="{{ pics.img }}" />
+                  </ion-col>
+                  <ion-col size="12">
+                    <ion-label>{{ pics.title }}</ion-label>
+                  </ion-col>
+                  <ion-col size="12">
+                    <ion-label>{{ pics.text }}</ion-label>
+                  </ion-col>
+                  <ion-grid style="background-color: #0767b3;">
+                    <ion-col size="12">
+                      <p class="card_p">{{ pics.date }}</p>
+                    </ion-col>
+                    <ion-col size="12">
+                      <ion-label style="color: #fff;">{{ pics.day }}</ion-label>
+                    </ion-col>
+                  </ion-grid>
+                </ion-row>
+              </ion-card>
+            </div>
+          </ion-col>
+        </div>
+        <div style="margin-top: 40px;">
+          <ion-col size="4">
+            <div *ngFor="let pics of pictures">
+              <ion-card style="height: 330px;width: 250px;">
+                <ion-row>
+                  <ion-col size="12">
+                    <img style="height: 170px;width: 249px;" src="{{ pics.img }}" />
+                  </ion-col>
+                  <ion-col size="12">
+                    <ion-label>{{ pics.title }}</ion-label>
+                  </ion-col>
+                  <ion-col size="12">
+                    <ion-label>{{ pics.text }}</ion-label>
+                  </ion-col>
+                  <ion-grid style="background-color: #0767b3;">
+                    <ion-col size="12">
+                      <p class="card_p">{{ pics.date }}</p>
+                    </ion-col>
+                    <ion-col size="12">
+                      <ion-label style="color: #fff;">{{ pics.day }}</ion-label>
+                    </ion-col>
+                  </ion-grid>
+                </ion-row>
+              </ion-card>
+            </div>
+          </ion-col>
+        </div>
+        <!-- test code -->
+
+        <ion-col size="6">
+          <div class="timeline">
+            <div
+              style=" background-color: #f5a641;
+                      height: 42px;
+                      margin-bottom: -10px;
+                      padding: 0px;
+                      width: 240px;
+                      margin-left: 8px;
+                      border-radius: 10px;"
+            >
+              <h4 style="padding: 11px;color: white;">REVIEWS</h4>
+            </div>
+            <div *ngFor="let entry of timeLine; let i = index">
+              <ion-card class="content" [style.background-image]="'url(' + entry.backgroundImg + ')'">
+                <ion-row>
+                  <ion-col size="12" class="date">
+                    <ion-label>{{ entry.date }}</ion-label>
+                    <img style="height: 30px; width:30px" src="{{ entry.img }}" />
+                  </ion-col>
+                  <ion-col size="12" class="contentData">
+                    <ion-label class="review">{{ entry.content }}</ion-label>
+                  </ion-col>
+                  <!-- <ion-col size="12" class="author">
+                                <ion-label>{{ entry.author }}</ion-label>
+                              </ion-col> -->
+                  <ion-col size="12" class="readMore">
+                    <ion-label class="review">Read More</ion-label>
+                    <div class="delete-edit">
+                      <img style="height: 30px; width:30px" src="{{ entry.edit }}" />
+                      <!-- <img src="{{entry.delete}}"> -->
+                    </div>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <!-- ends here  -->
+    </ion-row>
+    <ion-footer class="footer_styl">
+      <ion-row class="download_row">
+        <ion-col size-xs="5.5" size-sm="5.5" size-md="5.5" size-lg="5.5" size class="travel2ubeLogo">
+          <img
+            style="height: 25px;width: 25px; border-radius: 16px;"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5kIcn-nHOWmR6sZ6aRkIN1WbMkbZ5Rb2jg&usqp=CAU.jpg"
+          />
+        </ion-col>
+        <ion-col size-xs="6" size-sm="6" size-md="6" size-lg="6">
+          <ion-row size-xs="12" size-sm="12" size-md="12" size-lg="12">
+            <ion-label class="on_the_go">ON THE GO?</ion-label>
+          </ion-row>
+          <ion-row size-xs="12" size-sm="12" size-md="12" size-lg="12">
+            <ion-label class="download_label">DOWNLOAD THIS <b>DEMO</b> APP TODAY</ion-label>
+          </ion-row>
+          <ion-row size-xs="12" size-sm="12" size-md="12" size-lg="12">
+            <ion-icon class="logo-android" name="logo-android"></ion-icon>
+            <ion-icon class="logo-android" name="logo-apple"></ion-icon>
+            <ion-icon class="logo-android" name="logo-windows"></ion-icon>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-row class="body_row">
+          <ion-col size-xs="12" size-sm="12" size-md="4" size-lg="2">
+            <div>
+              <ion-title class="footer_headings">ABOUT </ion-title>
+              <ul>
+                <li>HOW IT WORKS</li>
+                <li>CAREERS</li>
+                <li>COMPANY HISTORY</li>
+                <li>LEGAL</li>
+                <li>PARTNERS</li>
+              </ul>
+            </div>
+          </ion-col>
+
+          <ion-col size-xs="12" size-sm="12" size-md="4" size-lg="2">
+            <div>
+              <ion-title class="footer_headings">CUSTOMER SERVICE </ion-title>
+              <ul>
+                <li>PAYMENTS</li>
+                <li>BLOG</li>
+                <li>INSURANCE</li>
+                <li>CONTACT US</li>
+                <li>TRAVEL ADVISORIES</li>
+              </ul>
+            </div>
+          </ion-col>
+
+          <ion-col size-xs="12" size-sm="12" size-md="4" size-lg="2">
+            <div>
+              <ion-title class="footer_headings">HELP CENTER </ion-title>
+              <ul>
+                <li>DESTINATIONS</li>
+                <li>FEEDBACK</li>
+                <li>VISAS</li>
+                <li>FAQS</li>
+                <li>PLANNING</li>
+              </ul>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-col size-xs="12" size-sm="12" size-md="12" size-lg="12" class="ion-text-left">
+          <div class="div_styl">
+            <p class="p_FOOTER_COPYRIGHTS">
+              Copyright {{ 'FOOTER_COPYRIGHTS_1' | translate }} All rights reserved
+              <!-- {{ 'FOOTER_COPYRIGHTS_2' | translate }}<br />
+                  <a class="hover_styl" href="#" target="blank"> About </a> -
+                  <a class="hover_styl" href="#" target="blank"> Terms and conditions </a>
+                  - <a class="hover_styl" href="#" target="blank"> Privacy policy </a> -
+                  Contactus:
+                  <strong>
+                    <a class="hover_styl" href="tel:919876543210" target="blank"
+                      >+91 9876543210</a
+                    >
+                  </strong>
+                  or
+                  <strong>
+                    <a
+                      class="hover_styl"
+                      href="mailto:support@rentastico.com"
+                      target="blank"
+                    >
+                      Email us
+                    </a>
+                  </strong> -->
+            </p>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-footer>
+  </ion-grid>
+</ion-content>

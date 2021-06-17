@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="a" y1="40" x2="80" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#43abe1"/>
+      <stop offset="1" stop-color="#00639c"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="40" cy="40" r="40"/>
+    <path class="b" d="M50,20.83c-16.43,0-29.17,12-29.17,28.3A27.67,27.67,0,0,0,30,70.05a2.32,2.32,0,0,1,.79,1.66l.16,5.19A2.34,2.34,0,0,0,34.21,79L40,76.42a2.3,2.3,0,0,1,1.55-.12A31.93,31.93,0,0,0,50,77.42c16.43,0,29.17-12,29.17-28.29S66.43,20.83,50,20.83ZM67.51,42.61,59,56.19a4.38,4.38,0,0,1-6.33,1.17l-6.81-5.11a1.76,1.76,0,0,0-2.11,0l-9.2,7a1.38,1.38,0,0,1-2-1.84l8.57-13.59a4.37,4.37,0,0,1,6.32-1.17l6.82,5.11a1.74,1.74,0,0,0,2.1,0l9.2-7A1.39,1.39,0,0,1,67.51,42.61Z" transform="translate(-10 -10)"/>
+  </g>
+</svg>

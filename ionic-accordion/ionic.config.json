@@ -1,0 +1,8 @@
+{
+  "name": "ionic-accordion",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
