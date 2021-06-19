@@ -16,9 +16,9 @@ For each configurable variable (e.g. BROWSER_URL, API_URL):
 
   ```javascript
   {
-    "scripts": {
+    <!-- "scripts": {
       "env": "ngx-scripts env npm_package_version BROWSER_URL API_URL",
-    }
+    } -->
   }
   ```
 
