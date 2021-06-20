@@ -11,7 +11,7 @@ import { SharedModule } from '@app/shared';
 import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AboutModule } from './about/about.module';
-import { LoginModule } from './login/login.module';
+// import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NewComponentComponent } from './new-component/new-component.component';
@@ -28,7 +28,7 @@ import { NewComponentComponent } from './new-component/new-component.component';
     ShellModule,
     HomeModule,
     AboutModule,
-    LoginModule,
+    // LoginModule,
     AppRoutingModule // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent, NewComponentComponent],

@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewComponentComponent implements OnInit {
   featuredPhotos: any = [];
-  agencyServiceRef: any;
   userInformation: any;
   userProfilePic: any;
   displaySubscribedContent: boolean;
@@ -80,11 +79,7 @@ export class NewComponentComponent implements OnInit {
       edit: 'https://www.shareicon.net/data/512x512/2016/04/08/746661_edit_512x512.png',
       backgroundImg: 'https://i.pinimg.com/originals/e8/c7/c4/e8c7c4d4e14a9e3b21faf3d7b37c5b03.jpg'
     }
-    // { message: 'WE GET TO KNOW YOU' },
-    // { message: 'UPLOAD YOUR ROOM AD' },
-    // { message: 'BOOM! HERE ARE YOUR TOP MATCHES' },
-    // { message: 'CHAT WITH YOUR PERFECT ROOMMATE' },
-    // { message: 'FINALIZE THE ONLINE CONTRACT' },
+    
   ];
 
   // ends here
@@ -97,12 +92,12 @@ export class NewComponentComponent implements OnInit {
     },
     {
       id: 2,
-      name: 'Spot Travel',
-      value: 'spot_travel'
+      name: 'IG-TV ',
+      value: 'IG-TV'
     },
     {
       id: 3,
-      name: 'Trip Vidz',
+      name: 'Live-Stream',
       value: 'trip_vidz'
     }
   ];
@@ -160,11 +155,7 @@ export class NewComponentComponent implements OnInit {
       value: 'discover_around_you'
     }
   ];
-  activateRouteRef: any;
-  params: any;
-  credentialService: any;
-  userInfo: any;
-  staticServices: any;
+  // 
 
   constructor() {}
 
@@ -176,48 +167,9 @@ export class NewComponentComponent implements OnInit {
     this.SelectedLiveIdValue = this.MyDefaultLiveValue;
     this.selectedPostIdValue = this.MyDefaultPostvalue;
   }
-  onSelectChange(selectedValue: any) {
-    this.SelectedSubscribedIdValue = selectedValue.detail.value;
-  }
-
-  liveDropdown(selectedLive: any) {
-    this.SelectedLiveIdValue = selectedLive.detail.value;
-  }
-
-  selectedPostContent(selectedPost: any) {
-    this.selectedPostIdValue = selectedPost.detail.value;
-    console.log(this.selectedPostIdValue);
-  }
-  getFeaturedPhotos() {
-    const params = {
-      skip: 1,
-      limit: 8
-    };
-    this.staticServices.getFeaturedPhotos(params).subscribe((resp: any) => {
-      if (resp) {
-        this.featuredPhotos = resp.featuredPhotos;
-        // console.log(this.featuredPhotos, "featured photos");
-      }
-    });
-  }
+  
 
   async addNewUserPost() {
-    // const addTimelinePostModel = await this.modalCtrl.create({
-    //   component: AddUserPostComponent,
-    // componentProps: { is_modal_view: true },
-    // // cssClass: '',
-    // animated: true
-    // cssClass: 'max-width : 500px'
-    // });
-    // await addTimelinePostModel.present();
-    // addTimelinePostModel.onDidDismiss().then((resp: any) => {
-    //   if (resp && resp.role) {
-    //     if (resp.role && resp.role.media && resp.role.media.length) {
-    //       resp.role.images = resp.role.media.filter((m: any) => m.file_type === 'image');
-    //       resp.role.videos = resp.role.media.filter((m: any) => m.file_type === 'video');
-    //     }
-    //     // this.timelineData.unshift(resp.role);
-    //   }
-    // });
+    
   }
 }
