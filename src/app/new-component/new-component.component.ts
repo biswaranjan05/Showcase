@@ -79,7 +79,6 @@ export class NewComponentComponent implements OnInit {
       edit: 'https://www.shareicon.net/data/512x512/2016/04/08/746661_edit_512x512.png',
       backgroundImg: 'https://i.pinimg.com/originals/e8/c7/c4/e8c7c4d4e14a9e3b21faf3d7b37c5b03.jpg'
     }
-    
   ];
 
   // ends here
@@ -155,7 +154,7 @@ export class NewComponentComponent implements OnInit {
       value: 'discover_around_you'
     }
   ];
-  // 
+  //
 
   constructor() {}
 
@@ -167,9 +166,6 @@ export class NewComponentComponent implements OnInit {
     this.SelectedLiveIdValue = this.MyDefaultLiveValue;
     this.selectedPostIdValue = this.MyDefaultPostvalue;
   }
-  
 
-  async addNewUserPost() {
-    
-  }
+  async addNewUserPost() {}
 }

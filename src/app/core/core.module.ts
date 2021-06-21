@@ -5,14 +5,14 @@ import { RouteReuseStrategy, RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { RouteReusableStrategy } from './route-reusable-strategy';
-import { HttpService } from './http/http.service';
+// import { HttpService } from './http/http.service';
 
 @NgModule({
   imports: [CommonModule, HttpClientModule, TranslateModule, RouterModule],
   providers: [
     {
-      provide: HttpClient,
-      useClass: HttpService
+      provide: HttpClient
+      // useClass: HttpService
     },
     {
       provide: RouteReuseStrategy,

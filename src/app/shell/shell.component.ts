@@ -4,7 +4,7 @@ import { ActionSheetController, AlertController, Platform } from '@ionic/angular
 import { ActionSheetButton, ActionSheetOptions, TextFieldTypes } from '@ionic/core';
 import { TranslateService } from '@ngx-translate/core';
 
-import { AuthenticationService, CredentialsService, I18nService } from '@app/core';
+// import { AuthenticationService, CredentialsService, I18nService } from '@app/core';
 
 @Component({
   selector: 'app-shell',
@@ -25,9 +25,9 @@ export class ShellComponent {
     private platform: Platform,
     private alertController: AlertController,
     private actionSheetController: ActionSheetController,
-    private authenticationService: AuthenticationService,
-    private credentialsService: CredentialsService,
-    private i18nService: I18nService
+    // private authenticationService: AuthenticationService,
+    // private credentialsService: CredentialsService,
+    // private i18nService: I18nService
   ) {}
 
   async showProfileActions() {
@@ -63,7 +63,7 @@ export class ShellComponent {
     }
 
     const actionSheetOptions: ActionSheetOptions = {
-      header: this.username || undefined,
+      // header: this.username || undefined,
       buttons
     };
 
@@ -71,13 +71,13 @@ export class ShellComponent {
     createdActionSheet.present();
   }
 
-  get username(): string | null {
-    const credentials = this.credentialsService.credentials;
-    return credentials ? credentials.username : null;
-  }
+  // get username(): string | null {
+    // const credentials = this.credentialsService.credentials;
+    // return credentials ? credentials.username : null;
+  // }
 
   private logout() {
-    this.authenticationService.logout().subscribe(() => this.router.navigate(['/login'], { replaceUrl: true }));
+    // this.authenticationService.logout().subscribe(() => this.router.navigate(['/login'], { replaceUrl: true }));
   }
 
   get isWeb(): boolean {
@@ -87,13 +87,13 @@ export class ShellComponent {
   private async changeLanguage() {
     const alertController = await this.alertController.create({
       header: this.translateService.instant('Change language'),
-      inputs: this.i18nService.supportedLanguages.map(language => ({
-        type: 'radio' as TextFieldTypes,
-        name: language,
-        label: language,
-        value: language,
-        checked: language === this.i18nService.language
-      })),
+      // inputs: this.i18nService.supportedLanguages.map(language => ({
+      //   type: 'radio' as TextFieldTypes,
+      //   name: language,
+      //   label: language,
+      //   value: language,
+      //   checked: language === this.i18nService.language
+      // })),
       buttons: [
         {
           text: this.translateService.instant('Cancel'),
@@ -102,7 +102,7 @@ export class ShellComponent {
         {
           text: this.translateService.instant('Ok'),
           handler: language => {
-            this.i18nService.language = language;
+            // this.i18nService.language = language;
           }
         }
       ]
