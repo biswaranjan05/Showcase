@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { finalize } from 'rxjs/operators';
 
-import { QuoteService } from './quote.service';
+// import { QuoteService } from './quote.service';
 
 @Component({
   selector: 'app-home',
@@ -19,22 +19,22 @@ export class HomeComponent implements OnInit {
   quote: string | undefined;
   isLoading = false;
   person = {
-    a: 'http://rentastico.com/assets/img/sites/rentastico-cover-2.jpg'
+    a: ''
   };
 
-  constructor(private quoteService: QuoteService) {}
+  constructor() {}
 
   ngOnInit() {
     this.isLoading = true;
-    this.quoteService
-      .getRandomQuote({ category: 'dev' })
-      .pipe(
-        finalize(() => {
-          this.isLoading = false;
-        })
-      )
-      .subscribe((quote: string) => {
-        this.quote = quote;
-      });
+    // this.quoteService
+      // .getRandomQuote({ category: 'dev' })
+      // .pipe(
+      //   finalize(() => {
+      //     this.isLoading = false;
+      //   })
+      // )
+      // .subscribe((quote: string) => {
+      //   this.quote = quote;
+      // });
   }
 }

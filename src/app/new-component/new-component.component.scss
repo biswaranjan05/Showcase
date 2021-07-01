@@ -435,6 +435,9 @@
         height: 3.8vh;
       }
     }
+    ion-button{
+      --padding-left: 6px;
+    }
     .stream-btn ion-select {
       font-size: 3.15vw;
       .select-icon {

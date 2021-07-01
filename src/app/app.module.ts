@@ -6,8 +6,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { CoreModule } from '@app/core';
-import { SharedModule } from '@app/shared';
+// import { CoreModule } from '@app/core';
+// import { SharedModule } from '@app/shared';
 import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AboutModule } from './about/about.module';
@@ -23,8 +23,8 @@ import { NewComponentComponent } from './new-component/new-component.component';
     HttpClientModule,
     TranslateModule.forRoot(),
     IonicModule.forRoot(),
-    CoreModule,
-    SharedModule,
+    // CoreModule,
+    // SharedModule,
     ShellModule,
     HomeModule,
     AboutModule,

@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
-
 // import { Logger } from './logger.service';
 import enUS from '../../translations/en-US.json';
 import frFR from '../../translations/fr-FR.json';
@@ -40,7 +39,7 @@ export class I18nService {
    * @param defaultLanguage The default language to use.
    * @param supportedLanguages The list of supported languages.
    */
-  init(defaultLanguage: string, supportedLanguages: string[]) {
+  init(defaultLanguage: string, supportedLanguages: string[]) { 
     this.defaultLanguage = defaultLanguage;
     this.supportedLanguages = supportedLanguages;
     this.language = '';

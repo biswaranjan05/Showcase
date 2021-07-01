@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { I18nService } from '@app/core/i18n.service';
 import { ActionSheetController, AlertController, Platform } from '@ionic/angular';
 import { ActionSheetButton, ActionSheetOptions, TextFieldTypes } from '@ionic/core';
 import { TranslateService } from '@ngx-translate/core';
@@ -27,7 +28,7 @@ export class ShellComponent {
     private actionSheetController: ActionSheetController,
     // private authenticationService: AuthenticationService,
     // private credentialsService: CredentialsService,
-    // private i18nService: I18nService
+    private i18nService: I18nService
   ) {}
 
   async showProfileActions() {
@@ -87,13 +88,13 @@ export class ShellComponent {
   private async changeLanguage() {
     const alertController = await this.alertController.create({
       header: this.translateService.instant('Change language'),
-      // inputs: this.i18nService.supportedLanguages.map(language => ({
-      //   type: 'radio' as TextFieldTypes,
-      //   name: language,
-      //   label: language,
-      //   value: language,
-      //   checked: language === this.i18nService.language
-      // })),
+      inputs: this.i18nService.supportedLanguages.map(language => ({
+        type: 'radio' as TextFieldTypes,
+        name: language,
+        label: language,
+        value: language,
+        checked: language === this.i18nService.language
+      })),
       buttons: [
         {
           text: this.translateService.instant('Cancel'),
@@ -102,7 +103,7 @@ export class ShellComponent {
         {
           text: this.translateService.instant('Ok'),
           handler: language => {
-            // this.i18nService.language = language;
+            this.i18nService.language = language;
           }
         }
       ]
