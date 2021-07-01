@@ -18,19 +18,19 @@
                     />
                   </div>
                   <p onclick="alert('Still Working')" class="header_txt" (click)="presentPopover($event, 'tsn')">
-                    {{ 'Header_1' | translate }}
+                    {{ 'Header_1' }}
                   </p>
                   <p onclick="alert('Still Working')" class="header_txt">
-                    {{ 'Header_2' | translate }}
+                    {{ 'Header_2' }}
                   </p>
                   <p onclick="alert('Still Working')" class="header_txt">
-                    {{ 'Header_3' | translate }}
+                    {{ 'Header_3' }}
                   </p>
                   <p onclick="alert('Still Working')" class="header_txt" (click)="presentPopover($event, 'twork')">
-                    {{ 'Header_4' | translate }}
+                    {{ 'Header_4' }}
                   </p>
                   <p class="header_txt" (click)="presentPopover($event, 'trips')">
-                    {{ 'Header_5' | translate }}
+                    {{ 'Header_5' }}
                   </p>
                   <!-- <li class="travelation"> Photos</li>
                       <li class="travelation"> Videos</li> -->
@@ -96,29 +96,29 @@
         <ion-list>
           <ion-item color="transparent" lines="none" class="newColor ">
             <img class="svg" class="svg" src="../../assets/images.svg" />
-            <ion-label>{{ 'Tab_1' | translate }}</ion-label>
+            <ion-label>{{ 'Tab_1' }}</ion-label>
           </ion-item>
           <ion-item color="transparent" lines="none">
             <img class="svg" class="svg" src="../../assets/newspaper.svg" />
-            <ion-label>{{ 'Tab_2' | translate }}</ion-label>
+            <ion-label>{{ 'Tab_2' }}</ion-label>
           </ion-item>
           <ion-item (click)="addNewUserPost()" color="transparent" lines="none">
-            <img class="svg" src="../../assets/location.svg" /><ion-label>{{ 'Tab_3' | translate }}</ion-label>
+            <img class="svg" src="../../assets/location.svg" /><ion-label>{{ 'Tab_3' }}</ion-label>
           </ion-item>
           <ion-item color="transparent" lines="none">
             <img class="svg" src="../../../assets//travel-timeline/Edit_Black.svg" class="click-icon click-icon1" />
 
-            <ion-label>{{ 'Tab_4' | translate }}</ion-label>
+            <ion-label>{{ 'Tab_4' }}</ion-label>
           </ion-item>
           <ion-item color="transparent" lines="none" [routerLink]="['/login']">
             <img class="svg" src="../../assets/calendar-number.svg" />
-            <ion-label>{{ 'Tab_5' | translate }}</ion-label>
+            <ion-label>{{ 'Tab_5' }}</ion-label>
           </ion-item>
           <ion-item color="transparent" lines="none" [routerLink]="['/shell']">
             <img class="svg" src="../../assets/location.svg" />
 
             <!-- <ion-icon class="click-icon" name="image-outline"></ion-icon> -->
-            <ion-label>{{ 'Tab_6' | translate }}</ion-label>
+            <ion-label>{{ 'Tab_6' }}</ion-label>
           </ion-item>
         </ion-list>
       </ion-col>
@@ -164,9 +164,9 @@
         <ion-row style="background-color: black;">
           <ion-col size="12">
             <p class="trip_h">
-              {{ 'Trips_head' | translate }}
+              {{ 'Trips_head' }}
             </p>
-            <p class="trip_p">{{ 'Experience_texts' | translate }}</p>
+            <p class="trip_p">{{ 'Experience_texts' }}</p>
           </ion-col>
 
           <ion-col size="12">
@@ -180,7 +180,7 @@
       <ion-row>
         <div>
           <ion-col size-lg="4" size-xl="4" size-md="6" size-sm="12" size-xs="12">
-            <p>{{ 'Events_1' | translate }}</p>
+            <p>{{ 'Events_1' }}</p>
 
             <div *ngFor="let pics of pictures">
               <ion-card style="height: 330px;width: 250px;">
@@ -257,7 +257,7 @@
                   <ion-col size="12" class="readMore">
                     <div [ngClass]="{ limitTextHeight: isReadMore }">
                       <p class="more_text">
-                        {{ 'Review_p' | translate }}
+                        {{ 'Review_p' }}
                       </p>
                     </div>
                     <button type="button" (click)="showText()">
@@ -303,52 +303,52 @@
         <ion-row class="body_row">
           <ion-col size-xs="12" size-sm="12" size-md="3" size-lg="3" size-xl="3">
             <div>
-              <ion-title class="footer_headings">{{ 'Footer_About' | translate }} </ion-title>
+              <ion-title class="footer_headings">{{ 'Footer_About' }} </ion-title>
               <ul>
-                <li>{{ 'Footer_1' | translate }}</li>
-                <li>{{ 'Footer_2' | translate }}</li>
-                <li>{{ 'Footer_3' | translate }}</li>
+                <li>{{ 'Footer_1' }}</li>
+                <li>{{ 'Footer_2' }}</li>
+                <li>{{ 'Footer_3' }}</li>
               </ul>
             </div>
           </ion-col>
 
           <ion-col size-xs="12" size-sm="12" size-md="3" size-lg="3" size-xl="3">
             <div>
-              <ion-title class="footer_headings">{{ 'Footer_Custom' | translate }} </ion-title>
+              <ion-title class="footer_headings">{{ 'Footer_Custom' }} </ion-title>
               <ul>
-                <li>{{ 'Footer_Custom' | translate }}</li>
-                <li>{{ 'Footer_Custom' | translate }}</li>
+                <li>{{ 'Footer_Custom' }}</li>
+                <li>{{ 'Footer_Custom' }}</li>
 
-                <li>{{ 'Footer_Custom' | translate }}</li>
+                <li>{{ 'Footer_Custom' }}</li>
               </ul>
             </div>
           </ion-col>
 
           <ion-col size-xs="12" size-sm="12" size-md="3" size-lg="3" size-xl="3">
             <div>
-              <ion-title class="footer_headings">{{ 'Footer_Help' | translate }} </ion-title>
+              <ion-title class="footer_headings">{{ 'Footer_Help' }} </ion-title>
               <ul>
-                <li>{{ 'Footer_H1' | translate }}</li>
-                <li>{{ 'Footer_H2' | translate }}</li>
-                <li>{{ 'Footer_H3' | translate }}</li>
+                <li>{{ 'Footer_H1' }}</li>
+                <li>{{ 'Footer_H2' }}</li>
+                <li>{{ 'Footer_H3' }}</li>
               </ul>
             </div>
           </ion-col>
           <ion-col size-xs="12" size-sm="12" size-md="3" size-lg="3" size-xl="3">
             <div>
-              <ion-title class="footer_headings">{{ 'Footer_Reach' | translate }} </ion-title>
+              <ion-title class="footer_headings">{{ 'Footer_Reach' }} </ion-title>
               <ul>
                 <li>
                   <ion-icon style="height: 25px;width: 30px;" name="logo-facebook"></ion-icon
-                  >{{ 'Footer_R1' | translate }}
+                  >{{ 'Footer_R1' }}
                 </li>
                 <li>
                   <ion-icon style="height: 25px;width: 30px;" name="logo-linkedin"></ion-icon
-                  >{{ 'Footer_R2' | translate }}
+                  >{{ 'Footer_R2' }}
                 </li>
                 <li>
                   <ion-icon style="height: 25px;width: 30px;" name="logo-twitter"></ion-icon
-                  >{{ 'Footer_R3' | translate }}
+                  >{{ 'Footer_R3' }}
                 </li>
               </ul>
             </div>
@@ -357,7 +357,7 @@
 
         <ion-col size-xs="12" size-sm="12" size-md="12" size-lg="12" style="background-color: #000;">
           <div class="div_styl">
-            <p class="p_FOOTER_COPYRIGHTS">Copyright {{ 'FOOTER_COPYRIGHTS_1' | translate }} All rights reserved</p>
+            <p class="p_FOOTER_COPYRIGHTS">Copyright {{ 'FOOTER_COPYRIGHTS_1' }} All rights reserved</p>
           </div>
         </ion-col>
       </ion-row>
